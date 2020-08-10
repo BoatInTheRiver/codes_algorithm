@@ -1,3 +1,4 @@
+#coding:utf-8
 '''
 小易有n堆积木，第i堆积木有hi块。小易还拥有一个容量无限的背包。
 一开始小易站在第一堆积木旁边。每次小易可以选择进行下列三种操作中的一种：
@@ -16,8 +17,8 @@
 对于每组数据输出一行，输出结果YES或NO
 '''
 
-def get(m, h):
-    for i in range(len(h)):
+def get(n, m, h):
+    for i in range(n):
         if h[i] > i:
             m += h[i] - i
         elif h[i] < i:

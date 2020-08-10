@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da54dc2-2a5c-4402-8149-1f2e136183e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 59 - II. 队列的最大值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 60. n个骰子的点数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 61. 扑克牌中的顺子.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 62. 圆圈中最后剩下的数字.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 63. 股票的最大利润.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 64. 求1+2+…+n.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 65. 不用加减乘除做加法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 66. 构建乘积数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 67. 把字符串转换成整数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 68 - I. 二叉搜索树的最近公共祖先.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指Offer/剑指 Offer 68 - II. 二叉树的最近公共祖先.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowcoder/数字圆环.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowcoder/最大公约数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowcoder/吃葡萄.py" beforeDir="false" afterPath="$PROJECT_DIR$/nowcoder/吃葡萄.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowcoder/积木.py" beforeDir="false" afterPath="$PROJECT_DIR$/nowcoder/积木.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,19 +17,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 68 - I. 二叉搜索树的最近公共祖先.py">
+        <entry file="file://$PROJECT_DIR$/nowcoder/吃葡萄.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="168">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 68 - II. 二叉树的最近公共祖先.py">
+        <entry file="file://$PROJECT_DIR$/nowcoder/数字圆环.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="644">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nowcoder/最大公约数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -61,12 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 27. 二叉树的镜像.py" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 28. 对称的二叉树.py" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 29. 顺时针打印矩阵.py" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 30. 包含min函数的栈.py" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 31. 栈的压入、弹出序列.py" />
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 32 - I. 从上到下打印二叉树.py" />
         <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 32 - II. 从上到下打印二叉树 II.py" />
         <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 32 - III. 从上到下打印二叉树 III.py" />
         <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 33. 二叉搜索树的后序遍历序列.py" />
@@ -112,12 +108,18 @@
         <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 67. 把字符串转换成整数.py" />
         <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 68 - I. 二叉搜索树的最近公共祖先.py" />
         <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 68 - II. 二叉树的最近公共祖先.py" />
+        <option value="$PROJECT_DIR$/nowcoder/积木.py" />
+        <option value="$PROJECT_DIR$/nowcoder/吃葡萄.py" />
+        <option value="$PROJECT_DIR$/nowcoder/跳柱子.py" />
+        <option value="$PROJECT_DIR$/nowcoder/数字圆环.py" />
+        <option value="$PROJECT_DIR$/nowcoder/最大公约数.py" />
+        <option value="$PROJECT_DIR$/nowcoder/序列维护.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="y" value="13" />
+    <option name="x" value="923" />
+    <option name="y" value="7" />
     <option name="width" value="1008" />
     <option name="height" value="1022" />
   </component>
@@ -139,7 +141,7 @@
             <path>
               <item name="codes_algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\codes_algorithm" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="剑指Offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="nowcoder" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -168,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.人数统计">
+  <component name="RunManager" selected="Python.序列维护">
     <configuration name="剑指 Offer 03. 数组中重复的数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="codes_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,6 +207,72 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nowcoder/人数统计.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="跳柱子" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="codes_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\OpenSources\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nowcoder" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nowcoder/跳柱子.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="序列维护" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="codes_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\OpenSources\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nowcoder" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nowcoder/序列维护.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="最大公约数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="codes_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\OpenSources\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nowcoder" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nowcoder/最大公约数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,6 +371,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.序列维护" />
+        <item itemvalue="Python.最大公约数" />
+        <item itemvalue="Python.跳柱子" />
         <item itemvalue="Python.剑指 Offer 03. 数组中重复的数字" />
         <item itemvalue="Python.人数统计" />
       </list>
@@ -324,7 +395,7 @@
       <workItem from="1596856879675" duration="7160000" />
       <workItem from="1596869916676" duration="17368000" />
       <workItem from="1596933488705" duration="604000" />
-      <workItem from="1597044353447" duration="5453000" />
+      <workItem from="1597044353447" duration="18025000" />
     </task>
     <task id="LOCAL-00001" summary="code_algorithm">
       <created>1596630465074</created>
@@ -396,22 +467,30 @@
       <option name="project" value="LOCAL" />
       <updated>1596892420429</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="code_algorithm">
+      <created>1597050327467</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597050327467</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76230000" />
+    <option name="totallyTimeSpent" value="88802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="13" width="1008" height="1022" extended-state="0" />
+    <frame x="923" y="7" width="1008" height="1022" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1371308" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1371308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31292516" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31193694" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -428,6 +507,30 @@
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1371308" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31193694" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32993197" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -439,58 +542,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codes$.coverage" NAME="吃葡萄 Coverage Results" MODIFIED="1596620081249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nowcoder" />
     <SUITE FILE_PATH="coverage/codes_algorithm$_Offer_03__.coverage" NAME="剑指 Offer 03. 数组中重复的数字 Coverage Results" MODIFIED="1596678504352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer" />
-    <SUITE FILE_PATH="coverage/codes_algorithm$.coverage" NAME="游泳池 Coverage Results" MODIFIED="1596891629173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nowcoder" />
+    <SUITE FILE_PATH="coverage/codes_algorithm$.coverage" NAME="序列维护 Coverage Results" MODIFIED="1597071457330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nowcoder" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 29. 顺时针打印矩阵.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 30. 包含min函数的栈.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 32 - I. 从上到下打印二叉树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 32 - II. 从上到下打印二叉树 II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 24. 反转链表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 31. 栈的压入、弹出序列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 20. 表示数值的字符串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 32 - III. 从上到下打印二叉树 III.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -694,34 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nowcoder/二进制计数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nowcoder/水平线.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nowcoder/幸运N串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nowcoder/游泳池.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 59 - II. 队列的最大值.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -794,8 +820,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 68 - II. 二叉树的最近公共祖先.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="364">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/人数统计.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/二进制计数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/积木.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/水平线.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/游泳池.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/幸运N串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/跳柱子.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/吃葡萄.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/最大公约数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/序列维护.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/数字圆环.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>

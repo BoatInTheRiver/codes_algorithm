@@ -18,7 +18,7 @@ class Solution:
     def isBlanced(self, root):
         if not root:
             return True
-        return abs(self.depth(root.left) - self.depth(root.right)) and \
+        return abs(self.depth(root.left) - self.depth(root.right)) <= 1 and \
                 self.isBlanced(root.left) and self.isBlanced(root.right)
 
     def depth(self, root):

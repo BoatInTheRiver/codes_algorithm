@@ -22,7 +22,7 @@ class Solution:
     # '''递归'''
     # def reverseList(self,head):
     #     if not head or not head.next:
-    #         return
+    #         return head
     #     nextNode = self.reverseList(head.next)
     #     head.next.next = head
     #     head.next = None

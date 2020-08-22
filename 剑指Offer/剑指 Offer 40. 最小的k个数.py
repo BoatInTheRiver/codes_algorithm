@@ -6,5 +6,28 @@
 
 class Solution:
     def getLeastNumbers(self, arr, k):
-        arr.sort()
-        return arr[:k]
+        if k >= len(arr):
+            return arr
+        l, r = 0, len(arr) - 1
+        return self.quickselect(arr, l, r, k)
+
+    def partition(self, arr, l, r):
+        low, high = l, r
+        base = arr[l]
+        while low < high:
+            while low < high and arr[high] >= base:
+                high -= 1
+            arr[low] = arr[high]
+            while low < high and arr[low] < base:
+                low += 1
+            arr[high] = arr[low]
+        arr[low] = base
+        return low
+    def quickselect(self, arr, l, r, k):
+        pos = self.partition(arr, l, r)
+        if pos == k:
+            return arr[:pos]
+        elif pos > k:
+            return self.quickselect(arr, l, pos - 1, k)
+        else:
+            return self.quickselect(arr, pos + 1, r, k)

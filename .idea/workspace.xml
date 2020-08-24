@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da54dc2-2a5c-4402-8149-1f2e136183e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic_programming/120. 三角形最小路径和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic_programming/139. 单词拆分.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic_programming/464. 我能赢吗.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic_programming/300. 最长上升子序列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +40,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/139. 单词拆分.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="771">
               <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="621">
+                <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/300. 最长上升子序列.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -79,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/tree/429. N叉树的层序遍历.py" />
         <option value="$PROJECT_DIR$/leetcode/tree/124. 二叉树中的最大路径和.py" />
         <option value="$PROJECT_DIR$/leetcode/tree/129. 求根到叶子节点数字之和.py" />
         <option value="$PROJECT_DIR$/leetcode/tree/96. 不同的二叉搜索树.py" />
@@ -130,12 +148,13 @@
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/464. 我能赢吗.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/120. 三角形最小路径和.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/139. 单词拆分.py" />
+        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/300. 最长上升子序列.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="2" />
+    <option name="x" value="1022" />
+    <option name="y" value="3" />
     <option name="width" value="899" />
     <option name="height" value="1036" />
   </component>
@@ -644,7 +663,7 @@
       <workItem from="1598085412677" duration="9136000" />
       <workItem from="1598146774878" duration="12912000" />
       <workItem from="1598236539733" duration="7128000" />
-      <workItem from="1598264840883" duration="5379000" />
+      <workItem from="1598264840883" duration="7390000" />
     </task>
     <task id="LOCAL-00001" summary="code_algorithm">
       <created>1596630465074</created>
@@ -877,17 +896,24 @@
       <option name="project" value="LOCAL" />
       <updated>1598256522970</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="code_algorithm">
+      <created>1598282313766</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1598282313766</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201349000" />
+    <option name="totallyTimeSpent" value="203360000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="2" width="899" height="1036" extended-state="0" />
+    <frame x="1022" y="3" width="899" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2657926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -935,13 +961,6 @@
     <SUITE FILE_PATH="coverage/codes_algorithm$_Offer_40__k.coverage" NAME="剑指 Offer 40. 最小的k个数 Coverage Results" MODIFIED="1598113321581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/tree/116. 填充每个节点的下一个右侧节点指针.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/tree/117. 填充每个节点的下一个右侧节点指针 II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1246,16 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="621">
-            <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/120. 三角形最小路径和.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -1267,6 +1276,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="771">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="621">
+            <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/300. 最长上升子序列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>

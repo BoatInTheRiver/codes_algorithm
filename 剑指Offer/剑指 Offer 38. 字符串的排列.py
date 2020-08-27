@@ -13,7 +13,7 @@ class Solution:
     def permutation(self, s):
         c = list(s)
         res = []
-        def dfs(x):
+        def backtrack(x):
             if x == len(c) - 1:
                 # 添加排列方案
                 res.append(''.join(c))
@@ -27,9 +27,10 @@ class Solution:
                 # 交换，将c[i]固定在第x位
                 c[i], c[x] = c[x], c[i]
                 # 开始固定第x+1位
-                dfs(x + 1)
+                backtrack(x + 1)
                 # 恢复交换
                 c[i], c[x] = c[x], c[i]
 
-        dfs(0)
+        backtrack(0)
         return res
+

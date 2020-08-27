@@ -1,19 +1,16 @@
 #coding:utf-8
 
 '''
-给定一个 没有重复 数字的序列，返回其所有可能的全排列。
+给定一个可包含重复数字的序列，返回所有不重复的全排列。
 '''
 
-import itertools
-
 class Solution:
-    '''利用库函数'''
-    # def permute1(self, nums):
-    #     return list(itertools.permutations(nums))
-    def permute(self, nums):
-        '''回溯'''
-        res = []
+    def permuteUnique(self, nums):
         n = len(nums)
+        if n == 0:
+            return []
+        res = []
+        nums.sort()
         used = [False] * n
         self.backtrack(nums, 0, n, [], used, res)
         return res
@@ -24,6 +21,8 @@ class Solution:
             return
         for i in range(n):
             if not used[i]:
+                if i > 0 and nums[i] == nums[i - 1] and not used[i - 1]:
+                    continue
                 used[i] = True
                 path.append(nums[i])
                 self.backtrack(nums, depth + 1, n, path, used, res)

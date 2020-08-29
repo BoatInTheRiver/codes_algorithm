@@ -19,4 +19,6 @@ class Solution:
             for j in range(1, amount + 1):
                 if j >= coins[i - 1]:
                     dp[i][j] = dp[i - 1][j] + dp[i][j - coins[i - 1]]
+                else:
+                    dp[i][j] = dp[i - 1][j]
         return dp[n][amount]

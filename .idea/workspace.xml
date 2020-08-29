@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da54dc2-2a5c-4402-8149-1f2e136183e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/bubble_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/heap_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/insert_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/merge_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/quick_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithm/select_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic_programming/322. 零钱兑换.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Dynamic_programming/518. 零钱兑换 II.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/Dynamic_programming/518. 零钱兑换 II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Dynamic_programming/63. 不同路径 II.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/Dynamic_programming/63. 不同路径 II.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +15,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort_algorithm/heap_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="351">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/518. 零钱兑换 II.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/63. 不同路径 II.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="717">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/322. 零钱兑换.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -64,8 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/剑指Offer/剑指 Offer 45. 把数组排成最小的数.py" />
-        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/63. 不同路径 II.py" />
         <option value="$PROJECT_DIR$/leetcode/linkedList/148. 排序链表.py" />
         <option value="$PROJECT_DIR$/leetcode/linkedList/109. 有序链表转换二叉搜索树.py" />
         <option value="$PROJECT_DIR$/leetcode/linkedList/142. 环形链表 II.py" />
@@ -85,7 +107,6 @@
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/120. 三角形最小路径和.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/139. 单词拆分.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/416. 分割等和子集.py" />
-        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/518. 零钱兑换 II.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/72. 编辑距离.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/887. 鸡蛋掉落.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/1143. 最长公共子序列.py" />
@@ -115,12 +136,14 @@
         <option value="$PROJECT_DIR$/sort_algorithm/quick_sort.py" />
         <option value="$PROJECT_DIR$/sort_algorithm/merge_sort.py" />
         <option value="$PROJECT_DIR$/sort_algorithm/heap_sort.py" />
+        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/322. 零钱兑换.py" />
+        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/518. 零钱兑换 II.py" />
+        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/63. 不同路径 II.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="760" />
-    <option name="y" value="10" />
+    <option name="x" value="-7" />
     <option name="width" value="1159" />
     <option name="height" value="1036" />
   </component>
@@ -144,6 +167,12 @@
               <item name="codes_algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\codes_algorithm" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="codes_algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\codes_algorithm" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Dynamic_programming" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="codes_algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -654,7 +683,7 @@
       <workItem from="1598488521048" duration="25942000" />
       <workItem from="1598581538793" duration="813000" />
       <workItem from="1598680919006" duration="1000" />
-      <workItem from="1598680937504" duration="13020000" />
+      <workItem from="1598680937504" duration="17502000" />
     </task>
     <task id="LOCAL-00001" summary="code_algorithm">
       <created>1596630465074</created>
@@ -936,22 +965,29 @@
       <option name="project" value="LOCAL" />
       <updated>1598546093696</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="code_algorithm">
+      <created>1598694264216</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1598694264216</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286936000" />
+    <option name="totallyTimeSpent" value="291418000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="760" y="10" width="1159" height="1036" extended-state="0" />
+    <frame x="-7" y="0" width="1159" height="1036" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25750682" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25750682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29822618" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51995564" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1028,16 +1064,6 @@
     <SUITE FILE_PATH="coverage/codes_algorithm$_Offer_40__k.coverage" NAME="剑指 Offer 40. 最小的k个数 Coverage Results" MODIFIED="1598113321581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/234. 回文链表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/tree/100. 相同的树.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/linkedList/328. 奇偶链表.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1115,13 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/518. 零钱兑换 II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1367,8 +1386,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sort_algorithm/heap_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="351">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/322. 零钱兑换.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/518. 零钱兑换 II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/63. 不同路径 II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
         </state>
       </provider>
     </entry>

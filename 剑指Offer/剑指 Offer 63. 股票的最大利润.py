@@ -5,10 +5,10 @@
 
 class Solution:
     def maxProfit(self, prices):
-        n = len(prices)
         if not prices:
             return 0
-        dp = [0 for _ in range(n)]
-        for i in range(1, n):
-            dp[i] = max(dp[i - 1], prices[i] - min(prices[:i]))
-        return dp[-1]
+        cost, profit = float('INF'), 0
+        for price in prices:
+            cost = min(cost, price)
+            profit = max(profit, price - cost)
+        return profit

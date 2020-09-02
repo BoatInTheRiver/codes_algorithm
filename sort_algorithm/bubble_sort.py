@@ -16,7 +16,7 @@ def bubble_sort(nums):
     n = len(nums)
     if n == 0:
         return []
-    for j in range(n):
+    for j in range(n-1):
         # 新增计时器
         count = 0
         print('第{}趟排序: '.format(j + 1))

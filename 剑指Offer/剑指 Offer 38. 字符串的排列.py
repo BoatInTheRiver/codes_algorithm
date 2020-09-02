@@ -11,26 +11,16 @@
 
 class Solution:
     def permutation(self, s):
-        c = list(s)
         res = []
-        def backtrack(x):
-            if x == len(c) - 1:
-                # 添加排列方案
-                res.append(''.join(c))
+        def dfs(s, path):
+            if not s:
+                res.append(path)
                 return
-            dic = set()
-            for i in range(x, len(c)):
-                # 重复就剪枝
-                if c[i] in dic:
+            seen = set()
+            for i in range(len(s)):
+                if s[i] in seen:
                     continue
-                dic.add(c[i])
-                # 交换，将c[i]固定在第x位
-                c[i], c[x] = c[x], c[i]
-                # 开始固定第x+1位
-                backtrack(x + 1)
-                # 恢复交换
-                c[i], c[x] = c[x], c[i]
-
-        backtrack(0)
+                seen.add(s[i])
+                dfs(s[:i]+s[i + 1:], path + s[i])
+        dfs(s, '')
         return res
-

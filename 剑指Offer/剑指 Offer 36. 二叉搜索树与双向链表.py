@@ -4,7 +4,7 @@
 要求不能创建任何新的节点，只能调整树中节点指针的指向。
 '''
 
-class Solution
+class Solution:
     def treeToDoublelyList(self, root):
         if not root:
             return

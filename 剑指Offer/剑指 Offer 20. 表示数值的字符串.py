@@ -7,7 +7,7 @@
 
 class Solution:
     def isNumber(self, s):
-        s = s.stip()
+        s = s.strip()
         met_dot, met_e,met_digit = False, False, False
         for i, c in enumerate(s):
             if c in ('+', '-'):

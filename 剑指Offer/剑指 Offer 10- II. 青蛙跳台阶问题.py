@@ -11,6 +11,6 @@ class Solution:
         if n == 0:
             return 1
         a, b = 1, 1
-        for _ in range(2, n):
+        for _ in range(n):
             a, b = b, a + b
         return a % (10**9 + 7)

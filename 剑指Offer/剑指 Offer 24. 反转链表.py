@@ -21,3 +21,13 @@ class Solution:
         while cur:
             cur.next, pre, cur = pre, cur, cur.next
         return pre
+
+
+    # 递归思想
+    def reverseList1(self, head):
+        if not head or not head.next:
+            return head
+        last = self.reverseList1(head.next)
+        head.next.next = head
+        head.next = None
+        return last

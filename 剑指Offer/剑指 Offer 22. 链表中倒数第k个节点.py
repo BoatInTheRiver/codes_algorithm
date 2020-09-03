@@ -27,3 +27,16 @@ class Solution:
         for i in range(getlen(head) - k):
             head = head.next
         return head
+
+
+    # 双指针
+    def getKthFromEnd1(self, head, k):
+        if not head:
+            return
+        fast, slow = head, head
+        for _ in range(k):
+            fast = fast.next
+        while fast:
+            fast = fast.next
+            slow = slow.next
+        return slow

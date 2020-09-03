@@ -21,3 +21,9 @@ class Solution:
             res.append(head.val)
             head = head.next
         return res[::-1]
+
+    # 递归思想
+    def reversePrint1(self, head):
+        if not head:
+            return []
+        return self.reversePrint1(head.next) + [head.val]

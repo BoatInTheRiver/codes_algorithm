@@ -17,10 +17,10 @@ class Solution:
     def kthLargest(self, root, k):
         res = []
         def dfs(root):
-            if root.left:
-                dfs(root.left)
+            if not root:
+                return
+            dfs(root.right)
             res.append(root.val)
-            if root.right:
-                dfs(root.right)
+            dfs(root.left)
         dfs(root)
-        return res
+        return res[k - 1]

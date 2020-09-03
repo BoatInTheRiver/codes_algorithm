@@ -8,6 +8,7 @@ class Solution:
     def constructArr(self, a):
         if not a:
             return []
+        n = len(a)
         l, r = [1] * n, [1] * n
         for i in range(1, n):
             l[i] = l[i - 1] * a[i - 1]

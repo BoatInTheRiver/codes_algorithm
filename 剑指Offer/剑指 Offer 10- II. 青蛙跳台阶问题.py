@@ -10,7 +10,7 @@ class Solution:
     def numWays(self, n):
         if n == 0:
             return 1
-        a, b = 1, 2
+        a, b = 1, 1
         for _ in range(2, n):
             a, b = b, a + b
         return a % (10**9 + 7)

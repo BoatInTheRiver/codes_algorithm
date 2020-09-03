@@ -21,3 +21,11 @@ class Solution:
             else:
                 break
         return root
+
+    # 递归
+    def lowestCommonAncestor1(self, root, p, q):
+        if root.val > p.val and root.val > q.val:
+            return self.lowestCommonAncestor1(root.left, p, q)
+        if root.val < p.val and root.val < q.val:
+            return self.lowestCommonAncestor1(root.right, p, q)
+        return root

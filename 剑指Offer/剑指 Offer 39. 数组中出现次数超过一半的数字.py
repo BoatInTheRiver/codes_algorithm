@@ -24,3 +24,7 @@ class Solution:
             if dic[num] > (len(nums) // 2):
                 return num
         return None
+
+    def majorityElement1(self, nums):
+        nums.sort()
+        return nums[len(nums) // 2]

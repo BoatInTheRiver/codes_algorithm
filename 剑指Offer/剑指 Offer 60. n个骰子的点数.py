@@ -6,9 +6,16 @@
 
 '''
 
+'''
+n个骰子，一共有6^n种情况
+n = 1时，和为s的情况有F(n, s) = 1; s=1,2,3,4,5,6
+当n >= 2时，F(n, s) = F(n-1, s-1) + F(n-1, s-2) + F(n-1, s-3) + F(n-1, s-4) + F(n-1, s-5) + F(n-1, s-6)
+F(n, s)为有n个骰子时，和为s出现的次数
+'''
+
 class Solution:
     def twoSum(self, n):
-        dp = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
+        dp = [[0 for _ in range(6 * n + 1)] for _ in range(n + 1)]
         for i in range(1, 7):
             dp[1][i] = 1
         for i in range(2, n + 1):

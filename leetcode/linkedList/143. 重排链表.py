@@ -23,9 +23,8 @@ class Solution:
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
-        mid = slow
-        last = mid.next
-        mid.next = None
+        last = slow.next
+        slow.next = None
         p = self.reverseList(last)
         q = head
         while p:

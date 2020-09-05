@@ -11,19 +11,29 @@
 
 class Solution:
     def reversePairs(self, nums):
-        n = len(nums)
-        if n <= 1:
-            return 0
-        mid = n // 2
-        left = nums[:mid]
-        right = nums[mid:]
-        result = self.reversePairs(left) + self.reversePairs(right)
+        self.res = 0
+        self.merge_sort(nums)
+        return self.res
 
-        left.sort()
-        right.sort()
-        i = 0
-        for j in range(len(right)):
-            while i < len(left) and left[i] <= right[j]:
-                i += 1
-            result += len(left) - i
-        return result
+    def merge(self, arr1, arr2):
+        n1, n2 = len(arr1), len(arr2)
+        l, r = 0, 0
+        tmp = []
+        while l < n1 and r < n2:
+            if arr1[l] > arr2[r]:
+               tmp.append(arr2[r])
+               self.res += n1 - l
+               r += 1
+            else:
+                tmp.append(arr1[l])
+                l += 1
+        return tmp + arr1[l:] + arr2[r:]
+
+    def merge_sort(self, arr):
+        n = len(arr)
+        if n <= 1:
+            return arr
+        left = self.merge_sort(arr[:n//2])
+        right = self.merge_sort(arr[n//2:])
+        return self.merge(left, right)
+    

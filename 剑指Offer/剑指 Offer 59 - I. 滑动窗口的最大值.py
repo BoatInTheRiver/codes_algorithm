@@ -16,7 +16,7 @@ class Solution:
     def maxSlidingWindow(self, nums, k):
         n = len(nums)
         if n * k == 0:
-            return
+            return []
         res = []
         queue = collections.deque()
         for i in range(n):
@@ -26,6 +26,6 @@ class Solution:
                 queue.pop()
             queue.append(i)
 
-            if i >= j - 1:
+            if i >= k - 1:
                 res.append(nums[queue[0]])
         return res

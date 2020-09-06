@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da54dc2-2a5c-4402-8149-1f2e136183e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/tree/257. 二叉树的所有路径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/tree/559. N叉树的最大深度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/tree/897. 递增顺序查找树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/733. 图像渲染.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/tree/872. 叶子相似的树.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,15 +19,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="733">
               <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 20. 表示数值的字符串.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -70,25 +60,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/tree/257. 二叉树的所有路径.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="297">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 44. 数字序列中某一位的数字.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/leetcode/tree/872. 叶子相似的树.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 19. 正则表达式匹配.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/tree/100. 相同的树.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/733. 图像渲染.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="1269">
+              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -121,8 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/backtrack/22. 括号生成.py" />
-        <option value="$PROJECT_DIR$/leetcode/backtrack/39. 组合总和.py" />
         <option value="$PROJECT_DIR$/leetcode/backtrack/40. 组合总和 II.py" />
         <option value="$PROJECT_DIR$/leetcode/tree/搜索下一节点" />
         <option value="$PROJECT_DIR$/leetcode/backtrack/46. 全排列.py" />
@@ -172,6 +169,8 @@
         <option value="$PROJECT_DIR$/leetcode/tree/897. 递增顺序查找树.py" />
         <option value="$PROJECT_DIR$/leetcode/tree/559. N叉树的最大深度.py" />
         <option value="$PROJECT_DIR$/leetcode/tree/257. 二叉树的所有路径.py" />
+        <option value="$PROJECT_DIR$/leetcode/tree/872. 叶子相似的树.py" />
+        <option value="$PROJECT_DIR$/leetcode/733. 图像渲染.py" />
       </list>
     </option>
   </component>
@@ -200,12 +199,6 @@
               <item name="codes_algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\codes_algorithm" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="codes_algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\codes_algorithm" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="tree" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -699,14 +692,7 @@
       <workItem from="1599183156593" duration="2075000" />
       <workItem from="1599188285466" duration="16692000" />
       <workItem from="1599271107643" duration="24286000" />
-      <workItem from="1599358192628" duration="5225000" />
-    </task>
-    <task id="LOCAL-00009" summary="code_algorithm">
-      <created>1596877900999</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1596877900999</updated>
+      <workItem from="1599358192628" duration="9003000" />
     </task>
     <task id="LOCAL-00010" summary="code_algorithm">
       <created>1596892420429</created>
@@ -1044,11 +1030,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599364228897</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="code_algorithm">
+      <created>1599371174019</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1599371174019</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396893000" />
+    <option name="totallyTimeSpent" value="400671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="0" width="1035" height="1079" extended-state="0" />
@@ -1138,19 +1131,6 @@
     <SUITE FILE_PATH="coverage/codes_algorithm$_Offer_48__.coverage" NAME="剑指 Offer 48. 最长不含重复字符的子字符串 Coverage Results" MODIFIED="1599298878383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 49. 丑数.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 62. 圆圈中最后剩下的数字.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 42. 连续子数组的最大和.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 18. 删除链表的节点.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -1412,8 +1392,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/tree/257. 二叉树的所有路径.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="297">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/tree/872. 叶子相似的树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/tree/100. 相同的树.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/733. 图像渲染.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
         </state>
       </provider>
     </entry>

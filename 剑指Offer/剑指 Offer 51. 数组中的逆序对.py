@@ -36,4 +36,3 @@ class Solution:
         left = self.merge_sort(arr[:n//2])
         right = self.merge_sort(arr[n//2:])
         return self.merge(left, right)
-    

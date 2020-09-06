@@ -17,23 +17,13 @@ class ListNode:
 
 class Solution:
     def addTwoNumbers(self, l1, l2):
-        num1, num2 = 0, 0
-        i, j = 0, 0
-        while l1:
-            num1 += l1.val * (10**i)
-            l1 = l1.next
-            i += 1
-        while l2:
-            num2 += l2.val * (10**j)
-            l2 = l2.next
-            j += 1
-        li = []
-        for k in str(num1 + num2):
-            li.append(k)
-        res = ListNode(int(li.pop()))
-        pos = res
-        for _ in range(len(li)):
-            tmp = ListNode(int(li.pop()))
-            pos.next = tmp
-            pos = pos.next
-        return res
+        p = dummy = ListNode(0)
+        s = 0
+        while l1 or l2 or s:
+            s += (l1.val if l1 else 0) + (l2.val if l2 else 0)
+            p.next = ListNode(s % 10)
+            p = p.next
+            s //= 10
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+        return dummy.next

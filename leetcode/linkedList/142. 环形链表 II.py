@@ -10,7 +10,7 @@ class Solution:
     def detectCycle(self, head):
         fast, slow = head, head
         while True:
-            if not head or not head.next:
+            if not fast or not fast.next:
                 return
             fast = fast.next.next
             slow = slow.next

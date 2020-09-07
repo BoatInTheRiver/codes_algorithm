@@ -21,7 +21,7 @@ class Solution:
         res = []
         cur = root
         for i in range(k):
-            rea.append(cur)
+            res.append(cur)
             size = sub_len + (1 if remaining > 0 else 0)
             if cur:
                 count = 1

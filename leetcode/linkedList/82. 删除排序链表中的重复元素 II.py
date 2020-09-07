@@ -19,7 +19,7 @@ class Solution:
         if not head or not head.next:
             return head
         cur = head
-        if head != head.next.val:
+        if head.val != head.next.val:
             head.next = self.deleteDuplicates1(head.next)
             return head
         else:

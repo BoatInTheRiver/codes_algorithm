@@ -23,13 +23,13 @@ class Solution:
             slow = slow.next
         mid = slow
         last = self.reverseLinkedList(mid.next)
-        res = True
-        while res and last:
+        while last:
             if head.val != last.val:
-                res = False
-            head = head.next
-            last = last.next
-        return res
+                return False
+            else:
+                head = head.next
+                last = last.next
+        return True
 
     def reverseLinkedList(self, head):
         if not head or not head.next:

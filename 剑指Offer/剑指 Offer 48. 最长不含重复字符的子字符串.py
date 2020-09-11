@@ -26,6 +26,8 @@ class Solution:
     #         maxlen = max(maxlen, len(window))
     #     return maxlen
 
+
+    # dp[j]表示以s[j]为结尾的最长不重复子字符串
     def lengthOfLongestSubString(self, s):
         # 动态规划 + 哈希表
         dic = {}
@@ -34,9 +36,9 @@ class Solution:
             # 获取s[j]最近的相同字符的索引i
             i = dic.get(s[j], -1)
             dic[s[j]] = j
-            if tmp < j - i:
+            if tmp < j - i: # dp[j-1] < j - i
                 tmp += 1
             else:
                 tmp = j - i
-            res = max(res, tmp)
+            res = max(res, tmp) # dp[j] = max(dp[j-1], dp[j])
         return res

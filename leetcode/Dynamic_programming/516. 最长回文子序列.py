@@ -10,6 +10,7 @@
 4
 '''
 
+# dp[i][j]:以s[i]开头,s[j]结尾的最长回文子序列长度
 class Solution:
     def longestPalindromeSubseq(self, s):
         n = len(s)

@@ -11,7 +11,7 @@
 
 状态转移：
     三种情况：
-        1. 如果p[j]为字母： dp[i][j] = dp[i-1][j-1] and s[i] == p[j]
+        1. 如果p[j]为字母： dp[i][j] = dp[i-1][j-1] and s[i-1] == p[j-1]
         2. p[j] == '.': dp[i][j] = dp[i-1][j-1]
         3. p[j] == '*':说明 p[j-1]可以匹配0次或者无数次
             1. 匹配0次：则p的最后两个字符不起作用 dp[i][j] = dp[i][j-2]
@@ -26,23 +26,24 @@
 class Solution:
     def isMatch(self, s, p):
         m, n = len(s), len(p)
-        dp = [[False] * (n + 1) for _ in range(m + 1)]
-
+        dp = [[False for _ in range(n + 1)] for _ in range(m + 1)]
         for i in range(m + 1):
             for j in range(n + 1):
-                if j == 0:  # 空正则表达式
+                # p为空串
+                if j == 0:
                     dp[i][j] = True if i == 0 else False
-                else:  # 非空正则
-                    if p[j - 1] != '*' and p[j - 1] != '.':
-                        if i > 0:
-                            dp[i][j] = dp[i - 1][j - 1] and s[i - 1] == p[j - 1]
-                    elif p[j - 1] == '.':
-                        if i > 0:
+                # p不为空
+                else:
+                    # p的第j个字符不为'*'
+                    if p[j - 1] != '*':
+                        if i > 0 and (s[i - 1] == p[j - 1] or p[j - 1] == '.'):
                             dp[i][j] = dp[i - 1][j - 1]
+                    # p的第j个字符为'*'
                     else:
-                        if j > 1:  # 匹配0次
+                        # '*'匹配0次
+                        if j > 1:
                             dp[i][j] = dp[i][j] or dp[i][j - 2]
+                        # '*'匹配多次
                         if i > 0 and j > 1 and (s[i - 1] == p[j - 2] or p[j - 2] == '.'):
                             dp[i][j] = dp[i][j] or dp[i - 1][j]
-
         return dp[m][n]

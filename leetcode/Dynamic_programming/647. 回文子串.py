@@ -14,13 +14,11 @@ class Solution:
     def countSubstring(self, s):
         n = len(s)
         dp = [[False for _ in range(n)] for _ in range(n)]
-        count = 0
-        for i in range(n):
-            dp[i][i] = False
-        for j in range(n):
-            for i in range(j + 1):
+        count = n
+        for j in range(1, n):
+            for i in range(j):
                 if s[i] == s[j]:
-                    if j - i <= 2 or dp[i + 1][j - 1]:
+                    if j - i < 3 or dp[i + 1][j - 1]:
                         dp[i][j] = True
                         count += 1
         return count

@@ -31,9 +31,10 @@ def quick_sort(nums, left, right):
     while low < high:
         while low < high and nums[high] >= base:
             high -= 1
+        nums[low] = nums[high]
         while low < high and nums[low] < base:
             low += 1
-        nums[low], nums[high] = nums[high], nums[low]
+        nums[high] =  nums[low]
     nums[low] = base
     quick_sort(nums, left, low - 1)
     quick_sort(nums, low + 1, right)

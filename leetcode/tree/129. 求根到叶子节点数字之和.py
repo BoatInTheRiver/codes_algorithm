@@ -21,3 +21,13 @@ class Solution:
             if not node.left and not node.right:
                 res += int(s)
         return res
+
+    def sumNumbers1(self, root):
+        def dfs(root, n):
+            if not root:
+                return 0
+            n = n * 10 + root.val
+            if not root.left and not root.right:
+                return n
+            return dfs(root.left, n) + dfs(root.right, n)
+        return dfs(root, 0)

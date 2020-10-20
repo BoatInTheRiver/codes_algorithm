@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da54dc2-2a5c-4402-8149-1f2e136183e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/301. 删除无效的括号.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/560. 和为K的子数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic_programming/312. 戳气球.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/Dynamic_programming/LCP 19. 秋叶收藏集.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/Sliding_window/424. 替换后的最长重复字符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/tree/1609. 奇偶树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowcoder/最大整数点集.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/linkedList/234. 回文链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/linkedList/234. 回文链表.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,71 +17,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/数组缺失或重复元素问题/448. 找到所有数组中消失的数字.py">
+        <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 32 - III. 从上到下打印二叉树 III.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/数组缺失或重复元素问题/442. 数组中重复的数据.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/523. 连续的子数组和.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/560. 和为K的子数组.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/LCP 19. 秋叶收藏集.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/301. 删除无效的括号.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="189">
+              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/312. 戳气球.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/tree/1609. 奇偶树.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="756">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/Sliding_window/1052. 爱生气的书店老板.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/leetcode/tree/95. 不同的二叉搜索树 II.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -112,11 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/673. 最长递增子序列的个数.py" />
-        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/718. 最长重复子数组.py" />
-        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/583. 两个字符串的删除操作.py" />
-        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/712. 两个字符串的最小ASCII删除和.py" />
-        <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/787. K 站中转内最便宜的航班.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/983. 最低票价.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/837. 新21点.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/1048. 最长字符串链.py" />
@@ -163,14 +113,19 @@
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/LCP 19. 秋叶收藏集.py" />
         <option value="$PROJECT_DIR$/leetcode/301. 删除无效的括号.py" />
         <option value="$PROJECT_DIR$/leetcode/Dynamic_programming/312. 戳气球.py" />
+        <option value="$PROJECT_DIR$/leetcode/Sliding_window/424. 替换后的最长重复字符.py" />
+        <option value="$PROJECT_DIR$/nowcoder/最大整数点集.py" />
+        <option value="$PROJECT_DIR$/nowcoder/exercise.py" />
+        <option value="$PROJECT_DIR$/leetcode/linkedList/234. 回文链表.py" />
+        <option value="$PROJECT_DIR$/leetcode/tree/1609. 奇偶树.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="7" />
+    <option name="x" value="865" />
+    <option name="y" value="4" />
     <option name="width" value="1074" />
-    <option name="height" value="1040" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -180,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -195,13 +151,13 @@
             <path>
               <item name="codes_algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\codes_algorithm" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="nowcoder" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="tree" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +166,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/leetcode/数组缺失或重复元素问题" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="myPyQtBackend" value="PyQt4" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -231,8 +190,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.301. 删除无效的括号">
-    <configuration name="灯泡开关问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.最大整数点集">
+    <configuration name="最大整数点集" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="codes_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,7 +204,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nowcoder/灯泡开关问题.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nowcoder/最大整数点集.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -586,11 +545,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.最大整数点集" />
         <item itemvalue="Python.301. 删除无效的括号" />
         <item itemvalue="Python.208. 实现 Trie (前缀树)" />
         <item itemvalue="Python.146. LRU缓存机制" />
         <item itemvalue="Python.1405. 最长快乐字符串" />
-        <item itemvalue="Python.灯泡开关问题" />
       </list>
     </recent_temporary>
   </component>
@@ -676,7 +635,17 @@
       <workItem from="1601347877810" duration="12127000" />
       <workItem from="1601403094307" duration="1569000" />
       <workItem from="1601428469877" duration="21651000" />
-      <workItem from="1601520500748" duration="5883000" />
+      <workItem from="1601520500748" duration="7434000" />
+      <workItem from="1602334536603" duration="821000" />
+      <workItem from="1602381502927" duration="1291000" />
+      <workItem from="1602750240402" duration="77000" />
+      <workItem from="1602750333528" duration="243000" />
+      <workItem from="1602750592779" duration="48000" />
+      <workItem from="1602750659884" duration="66000" />
+      <workItem from="1602750741661" duration="9000" />
+      <workItem from="1603008460585" duration="274000" />
+      <workItem from="1603086070398" duration="3333000" />
+      <workItem from="1603197723896" duration="1036000" />
     </task>
     <task id="LOCAL-00017" summary="code_algorithm">
       <created>1597213296154</created>
@@ -1025,10 +994,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="619152000" />
+    <option name="totallyTimeSpent" value="627901000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="7" width="1074" height="1040" extended-state="0" />
+    <frame x="865" y="4" width="1074" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.28698224" />
@@ -1037,7 +1006,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32671082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3978836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.397351" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1117,107 +1086,11 @@
     <SUITE FILE_PATH="coverage/codes_algorithm$416__.coverage" NAME="416. 分割等和子集 Coverage Results" MODIFIED="1600603130821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/Dynamic_programming" />
     <SUITE FILE_PATH="coverage/codes_algorithm$889__.coverage" NAME="889. 根据前序和后序遍历构造二叉树 Coverage Results" MODIFIED="1597157625983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/tree" />
     <SUITE FILE_PATH="coverage/codes_algorithm$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1598686919262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort_algorithm" />
-    <SUITE FILE_PATH="coverage/codes_algorithm$.coverage" NAME="灯泡开关问题 Coverage Results" MODIFIED="1600750688522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nowcoder" />
+    <SUITE FILE_PATH="coverage/codes_algorithm$.coverage" NAME="最大整数点集 Coverage Results" MODIFIED="1602335303963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nowcoder" />
     <SUITE FILE_PATH="coverage/codes_algorithm$_Offer_38__.coverage" NAME="剑指 Offer 38. 字符串的排列 Coverage Results" MODIFIED="1598489961383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer" />
     <SUITE FILE_PATH="coverage/codes_algorithm$_Offer_48__.coverage" NAME="剑指 Offer 48. 最长不含重复字符的子字符串 Coverage Results" MODIFIED="1599298878383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指Offer" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 56 - I. 数组中数字出现的次数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 11. 旋转数组的最小数字.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/Binary_search/33. 搜索旋转排序数组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/849.到最近的人的最大距离.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 40. 最小的k个数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 52. 两个链表的第一个公共节点.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 51. 数组中的逆序对.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/tree/208. 实现 Trie (前缀树).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/141. 环形链表.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/142. 环形链表 II.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/tree/701. 二叉搜索树中的插入操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="872">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/394. 字符串解码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/backtrack/46. 全排列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/backtrack/90. 子集 II.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/backtrack/40. 组合总和 II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/backtrack/47. 全排列 II.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/406. 根据身高重建队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/Sliding_window/76. 最小覆盖子串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/Sliding_window/567. 字符串的排列.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="721">
@@ -1340,37 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/数组缺失或重复元素问题/448. 找到所有数组中消失的数字.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/数组缺失或重复元素问题/442. 数组中重复的数据.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/523. 连续的子数组和.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/Sliding_window/1052. 爱生气的书店老板.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/560. 和为K的子数组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/买卖股票系列/121. 买卖股票的最佳时机.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1392,16 +1234,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/数组缺失或重复元素问题/448. 找到所有数组中消失的数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/数组缺失或重复元素问题/442. 数组中重复的数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/523. 连续的子数组和.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/560. 和为K的子数组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Sliding_window/424. 替换后的最长重复字符.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/Dynamic_programming/LCP 19. 秋叶收藏集.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/301. 删除无效的括号.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
+        <state relative-caret-position="864">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
@@ -1410,6 +1283,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Sliding_window/1052. 爱生气的书店老板.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/最大整数点集.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nowcoder/exercise.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 09. 用两个栈实现队列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/234. 回文链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/148. 排序链表.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/141. 环形链表.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/142. 环形链表 II.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/328. 奇偶链表.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/445. 两数相加 II.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/725. 分隔链表.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/1019. 链表中的下一个更大节点.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/82. 删除排序链表中的重复元素 II.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linkedList/83. 删除排序链表中的重复元素.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指Offer/剑指 Offer 32 - III. 从上到下打印二叉树 III.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/tree/95. 不同的二叉搜索树 II.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/tree/1609. 奇偶树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>

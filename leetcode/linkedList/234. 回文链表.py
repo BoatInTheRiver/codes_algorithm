@@ -15,14 +15,11 @@ class ListNode:
 
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
-        if not head:
-            return True
         fast, slow = head, head
-        while fast.next and fast.next.next:
+        while fast and fast.next:
             fast = fast.next.next
             slow = slow.next
-        mid = slow
-        last = self.reverseLinkedList(mid.next)
+        last = self.reverseLinkedList(slow)
         while last:
             if head.val != last.val:
                 return False
